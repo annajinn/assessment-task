@@ -1,15 +1,15 @@
 namespace assessment_task
 {
-    public partial class Form1 : Form
+    public partial class welcome : Form
     {
-        public Form1()
+        public welcome()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
+            easyLevel f2 = new easyLevel();
             f2.ShowDialog();
             //opens easy level
         }
@@ -21,7 +21,7 @@ namespace assessment_task
 
         private void hardbutton_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
+            hardLevel f3 = new hardLevel();
             f3.ShowDialog();
             //opens hard level
         }

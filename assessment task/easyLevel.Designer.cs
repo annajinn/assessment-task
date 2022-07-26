@@ -1,6 +1,6 @@
 ﻿namespace assessment_task
 {
-    partial class Form2
+    partial class easyLevel
     {
         /// <summary>
         /// Required designer variable.

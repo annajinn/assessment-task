@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace assessment_task
 {
-    public partial class Form3 : Form
+    public partial class easyLevel : Form
     {
-        public Form3()
+        public easyLevel()
         {
             InitializeComponent();
         }

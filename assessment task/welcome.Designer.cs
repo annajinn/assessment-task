@@ -1,6 +1,6 @@
 ﻿namespace assessment_task
 {
-    partial class Form1
+    partial class welcome
     {
         /// <summary>
         ///  Required designer variable.
