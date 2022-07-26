@@ -6,5 +6,22 @@ namespace assessment_task
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hardbutton_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+        }
     }
 }
