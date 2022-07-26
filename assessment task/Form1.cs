@@ -11,6 +11,7 @@ namespace assessment_task
         {
             Form2 f2 = new Form2();
             f2.ShowDialog();
+            //opens easy level
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -22,6 +23,7 @@ namespace assessment_task
         {
             Form3 f3 = new Form3();
             f3.ShowDialog();
+            //opens hard level
         }
     }
 }
