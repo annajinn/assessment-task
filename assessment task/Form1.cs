@@ -25,5 +25,10 @@ namespace assessment_task
             f3.ShowDialog();
             //opens hard level
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
