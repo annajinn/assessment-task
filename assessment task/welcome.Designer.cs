@@ -62,9 +62,11 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(165, 125);
+            this.textBox1.MaxLength = 20;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 38);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -109,7 +111,7 @@
             this.label3.Text = "select a difficulty to start!";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // Form1
+            // welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,7 +124,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.easybutton);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "welcome";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

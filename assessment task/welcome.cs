@@ -9,9 +9,21 @@ namespace assessment_task
 
         private void button2_Click(object sender, EventArgs e)
         {
-            easyLevel f2 = new easyLevel();
-            f2.ShowDialog();
+            string x = textBox1.Text;
+            if (string.IsNullOrEmpty(x))
+            {
+                MessageBox.Show("enter a name >:(");
+            }
+
+            //checks if name is entered 
+
+            else
+            {
+                easyLevel f2 = new easyLevel();
+                f2.ShowDialog();
+            }
             //opens easy level
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -21,13 +33,32 @@ namespace assessment_task
 
         private void hardbutton_Click(object sender, EventArgs e)
         {
-            hardLevel f3 = new hardLevel();
-            f3.ShowDialog();
-            //opens hard level
+            string x = textBox1.Text;
+            if (string.IsNullOrEmpty(x))
+            {
+                MessageBox.Show("enter a name >:(");
+
+            }
+
+            //checks if name is entered
+
+            else
+            {
+                hardLevel f3 = new hardLevel();
+                f3.ShowDialog();
+                //opens hard level
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+ 
+
 
         }
     }
