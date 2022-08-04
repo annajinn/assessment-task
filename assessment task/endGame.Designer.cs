@@ -1,6 +1,6 @@
 ﻿namespace assessment_task
 {
-    partial class hardLevel
+    partial class endGame
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // hardLevel
+            // endGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Name = "hardLevel";
-            this.Text = "Level Hard";
+            this.Name = "endGame";
+            this.Text = "endGame";
             this.ResumeLayout(false);
 
         }

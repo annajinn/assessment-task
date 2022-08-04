@@ -13,16 +13,21 @@ namespace assessment_task
             if (string.IsNullOrEmpty(x))
             {
                 MessageBox.Show("enter a name >:(");
-            }
 
-            //checks if name is entered 
+            }
 
             else
             {
+                Properties.Settings.Default.User = textBox1.Text;
+                Properties.Settings.Default.Save();
+
+                //saves name
+
                 easyLevel f2 = new easyLevel();
                 f2.ShowDialog();
+
+                //opens easy level 
             }
-            //opens easy level
 
         }
 
@@ -33,6 +38,7 @@ namespace assessment_task
 
         private void hardbutton_Click(object sender, EventArgs e)
         {
+
             string x = textBox1.Text;
             if (string.IsNullOrEmpty(x))
             {
@@ -40,14 +46,19 @@ namespace assessment_task
 
             }
 
-            //checks if name is entered
+            //checks character length 
 
             else
-            {
+            { 
+                Properties.Settings.Default.User = label1.Text;
+                Properties.Settings.Default.Save();
+                //saves name 
+
                 hardLevel f3 = new hardLevel();
                 f3.ShowDialog();
                 //opens hard level
             }
+
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -57,9 +68,10 @@ namespace assessment_task
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
- 
-
 
         }
+
+
+
     }
 }
